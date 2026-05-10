@@ -1,16 +1,55 @@
-# React + Vite
+# Random Users Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and visually appealing React application that fetches and displays random user profiles.
 
-Currently, two official plugins are available:
+**Live Demo:** [https://random-user-view.netlify.app/](https://random-user-view.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- **Dynamic Data Fetching:** Consumes the Random Users API to display user profiles dynamically.
+- **Modern UI:** Clean, profile-style user interface built with Tailwind CSS.
+- **Responsive Design:** Fully responsive layout that looks great on mobile, tablet, and desktop devices.
+- **Interactive Elements:** Features custom icons and hover states for an engaging user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend Framework:** React 19
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+- **Utilities:** `clsx`, `tailwind-merge`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Getting Started
+
+Follow these steps to set up the project locally:
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. **Navigate to the project directory:**
+   ```bash
+   cd random-users-viewer
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the application:**
+   Visit `http://localhost:5173` in your browser.
+
+## 📜 Scripts
+
+- `npm run dev`: Starts the Vite development server.
+- `npm run build`: Builds the application for production.
+- `npm run preview`: Previews the production build locally.
+- `npm run lint`: Runs ESLint to check for code quality.
